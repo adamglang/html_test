@@ -25,9 +25,9 @@ D:
   <a target="https://www.google.com">Go to Google</a>
 </p>
 ```
-1. Excluding the "<!DOCTYPE>" flag, which element are all other elements in an html document contained by?
+2. Excluding the "<!DOCTYPE>" flag, which element are all other elements in an html document contained by?
   
-  A: ```<all></all>```
-  B: ```<html></html>```
-  C: ```<body></body>```
-  D: ```<head></head>```
+  A: ```<all></all>``` <br>
+  B: ```<html></html>``` <br>
+  C: ```<body></body>``` <br>
+  D: ```<head></head>``` <br>
