@@ -49,4 +49,7 @@ D: None of these <br>
 
 5. Of these sets of elements which are _all_ semantic elements
 
-A: 
+A: <section> <div> <span> <br>
+B: <article> <form> <header>  <br>
+C: <nav> <a> <main>  <br>
+D <section> <aside> <p> <br>
