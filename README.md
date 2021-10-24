@@ -96,6 +96,178 @@ B: An inline element does not take all of the horizonatl space on either side of
 C: A block level element has a block of text inside but an inline element has images or other forms of data <br>
 D: None of these <br>
 
-9. 
+9. What is the purpose of a ```<div>``` element
+
+A: It is used to divide sections of content <br>
+B: It is used to group content <br>
+C: It is used as a placeholder element <br>
+D: All of these <br>
+
+10. Which options have a set of tags that do not need to be closed
+
+A: ```<img> <span> <br>``` <br>
+B: ```<p> <a> <span>``` <br>
+C: ``` <img> <br> <hr>``` <br>
+D: ```<br> <img> <p>``` <br>
+
+11. What is an HTML _attribute_?
+
+A: Code inside of an element that informs text reading devices for the blind <br>
+B: Code inside of an element that tells the element how to behave <br>
+C: Code that tells an image tag which image to display <br>
+D: All of these <br>
+
+12. Which of these will make a numbered list:
+
+A:
+```
+<ol>
+    <li>item 1</li>
+    <li>item 2</li>
+    <li>item 3</li>
+</ol>
+```
+
+B:
+```
+<ul>
+    <li>item 1</li>
+    <li>item 2</li>
+    <li>item 3</li>
+</ul>
+```
+
+C: Both of these <br>
+D: Neither of these <br>
+
+13. Which of these is a correctly implemented table with one row of headers and 3 rows of cells
+
+A:
+```
+<table>
+    <tr>
+        <thead>
+            <th>User</th>
+            <th>Name</th>
+            <th>Password</th>
+        </thead>
+    </tr>
+     <tr>
+        <tbody>
+            <td>User1</td>
+            <td>Name1</td>
+            <td>Password1</td>
+        </tbody>
+     </tr>
+     <tr>
+        <tbody>
+            <td>User2</td>
+            <td>Name2</td>
+            <td>Password2</td>
+        </tbody>
+     </tr>
+     <tr>
+        <tbody>
+            <td>User3</td>
+            <td>Name3</td>
+            <td>Password3</td>
+        </tbody>
+     </tr>
+</table>
+```
+
+B:
+```
+<table>
+    <thead>
+        <tr>
+            <th>User</th>
+            <th>Name</th>
+            <th>Password</th>
+        </tr>
+    </thead>
+
+
+    <tbody>
+        <tr>
+            <td>User1</td>
+            <td>Name1</td>
+            <td>Password1</td>
+        </tr>
+        <tr>
+            <td>User2</td>
+            <td>Name2</td>
+            <td>Password2</td>
+        </tr>
+        <tr>
+            <td>User3</td>
+            <td>Name3</td>
+            <td>Password3</td>
+        </tr>
+    </tbody>
+</table>
+```
+
+C:
+```
+<table>
+    <tr>
+        <th>User</th>
+        <th>Name</th>
+        <th>Password</th>
+    </tr>
+     <tr>
+        <td>User1</td>
+        <td>Name1</td>
+        <td>Password1</td>
+     </tr>
+        <td>User2</td>
+        <td>Name2</td>
+        <td>Password2</td>
+     </tr>
+     <tr>
+        <td>User3</td>
+        <td>Name3</td>
+        <td>Password3</td>
+     </tr>
+</table>
+```
+
+D: All of these <br>
+
+14. What does the 'action' attribute of a form do?
+
+A: The code inside the attribute executes when the form is submitted <br>
+B: The browser makes a request to the url inside the attribute (usually sending the data within the form as parameters <br>
+C: Both of these <br>
+D: Neither of these <br>
+
+15. Which of these is a properly formed checkbox element?
+
+A: ```<checkbox>``` <br>
+B: ```<check>``` <br>
+C: ```<input type="check">``` <br>
+D: ```<input type="checkbox">``` <br>
+
+16. What is the correct way to make a form element that accepts basic text
+
+A: ```<textfield>``` <br>
+B: ```<input type="textfield">``` <br>
+C: ```<input type="text">``` <br>
+D: none of these <br>
+
+17. What is the correct way to make a drop-down list?
+
+A: ```<list>``` <br>
+B: ```<input type="dropdown">``` <br>
+C: ```<input type="list">``` <br>
+D: ```<select>``` <br>
+
+all html elements and what they do: https://www.w3schools.com/TAGS/default.ASP
+<head> element and the elements that belong inside of it: https://www.w3schools.com/html/html_head.asp
+semantic html elements: https://www.w3schools.com/html/html5_semantic_elements.asp
+html comments https://www.w3schools.com/html/html_comments.asp
+html tables: https://www.w3schools.com/html/html_tables.asp
+html forms: https://www.w3schools.com/html/html_forms.asp https://www.w3schools.com/html/html_forms_attributes.asp https://www.w3schools.com/html/html_form_elements.asp https://www.w3schools.com/html/html_form_input_types.asp https://www.w3schools.com/html/html_form_attributes.asp https://www.w3schools.com/html/html_form_attributes_form.asp
 
 
