@@ -16,7 +16,7 @@ B:
 C:
 ```
 <p>
-  <a href="https://www.google.com">
+  <a href="https://www.google.com">Go to Google</a>
 </p>
 ```
 D:
