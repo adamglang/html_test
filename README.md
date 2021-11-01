@@ -11,7 +11,9 @@ A:
 ```
 B:
 ```
-<p><a href="https://www.google.com">
+<p>
+  <a target="https://www.google.com">Go to Google</a>
+</p>
 ```
 C:
 ```
@@ -21,44 +23,43 @@ C:
 ```
 D:
 ```
-<p>
-  <a target="https://www.google.com">Go to Google</a>
-</p>
+<p><a href="https://www.google.com">
 ```
+
 ### 2. Excluding the "<!DOCTYPE>" flag, which element are all other elements in an html document contained by?
   
-A: ```<all></all>``` <br>
-B: ```<html></html>``` <br>
-C: ```<body></body>``` <br>
-D: ```<head></head>``` <br>
+A: ```<html></html>``` <br>
+B: ```<all></all>``` <br>
+C: ```<head></head>``` <br>
+D: ```<body></body>``` <br>
   
 ### 3. Why would we use the "h3" element?
 
 A: As a subheading <br>
-B: At the top of an article <br> 
+B: When there is already a heading and a subheading, but there should be yet another
+subheading before the main content begins <br>
 C: It doesn't matter what tag you use since we can change it's appearence with CSS <br>
-D: When there is already a heading and a subheading, but there should be yet another <br>
-subheading before the main content begins
+D: At the top of an article <br> 
 
 ### 4. What is a _semantic_ element?
 
 A: Elements that have more than one attribute <br>
-B: Elements that link to some semantic text <br>
-C: Elements which give meaning in a human- and machine-readable way <br>
+B: Elements which give meaning in a human- and machine-readable way <br>
+C: Elements that link to some semantic text <br>
 D: None of these <br>
 
 ### 5. Of these sets of elements which are _all_ semantic elements
 
 A: ```<section> <div> <span> ``` <br>
 B: ``` <article> <form> <header> ```  <br>
-C: ``` <nav> <a> <main>```  <br>
-D: ```<section> <aside> <footer>``` <br>
+C: ```<section> <aside> <footer>``` <br>
+D: ``` <nav> <a> <main>```  <br>
 
 ### 6. Which of these belongs in the ```<head>``` element rather than the ```<body``` element?
 
 A: ```<span>``` <br>
-B: ```<link>```  <br>
-C: ```<header>```  <br>
+B: ```<header>```  <br>
+C: ```<link>```  <br>
 D: None of these <br>
 
 ### 7. Which of these HTML snippets is _not_ a good practice
@@ -92,8 +93,8 @@ D:
 ### 8. What is the difference between a block level element and an inline element?
 
 A: A block element has a block of padding around it and inline elements do not <br>
-B: An inline element does not take all of the horizonatl space on either side of it but a block element does <br>
-C: A block level element has a block of text inside but an inline element has images or other forms of data <br>
+B: A block level element has a block of text inside but an inline element has images or other forms of data <br>
+C: An inline element does not take all of the horizontal space on either side of it but a block element does <br>
 D: None of these <br>
 
 ### 9. What is the purpose of a ```<div>``` element
@@ -245,9 +246,9 @@ D: Neither of these <br>
 ### 15. Which of these is a properly formed checkbox element?
 
 A: ```<checkbox>``` <br>
-B: ```<check>``` <br>
+B: ```<input type="checkbox">``` <br>
 C: ```<input type="check">``` <br>
-D: ```<input type="checkbox">``` <br>
+D: ```<check>``` <br>
 
 ### 16. What is the correct way to make a form element that accepts basic text
 
@@ -259,9 +260,9 @@ D: none of these <br>
 ### 17. What is the correct way to make a drop-down list?
 
 A: ```<list>``` <br>
-B: ```<input type="dropdown">``` <br>
+B: ```<select>``` <br>
 C: ```<input type="list">``` <br>
-D: ```<select>``` <br>
+D: ```<input type="dropdown">``` <br>
 
 ### 18. Which of these is a properly formatted image element?
 
