@@ -52,7 +52,7 @@ D: None of these <br>
 A: ```<section> <div> <span> ``` <br>
 B: ``` <article> <form> <header> ```  <br>
 C: ``` <nav> <a> <main>```  <br>
-D: ```<section> <aside> <p>``` <br>
+D: ```<section> <aside> <footer>``` <br>
 
 ### 6. Which of these belongs in the ```<head>``` element rather than the ```<body``` element?
 
